@@ -18,6 +18,7 @@ namespace SinemaBiletSatıs
 
         SqlConnection con;
         string seans = "";
+        //
         private void btnEKLE_Click(object sender, EventArgs e)
         {
             con = new SqlConnection("server=.//SQLEXPRESS; Initial Catalog=SinemaBiletSatis;Integrated Security=True");
